@@ -8,3 +8,27 @@
     --secondary-color: black;
     --tertiary-color: red;
 }
+header{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header h1 a{
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--secondarycolor);
+    list-style: none;
+
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    list-style: none;
+}
+.contact{
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    flex-wrap: wrap;
+}
