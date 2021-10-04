@@ -29,6 +29,9 @@ header nav ul{
 }
 .contact{
     color: var(--tertiary-color);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     flex-wrap: wrap;
+}
+.contact-me {
+    background-color: var(--tertiary-color);
 }
